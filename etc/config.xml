@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <oneserv_example_payment_method>
+                <active>1</active>
+                <debug>0</debug>
+                <can_authorize>0</can_authorize>
+                <can_capture>0</can_capture>
+                <can_void>0</can_void>
+                <can_use_checkout>1</can_use_checkout>
+                <can_use_internal>1</can_use_internal>
+                <is_gateway>0</is_gateway>
+                <model>Oneserv\ExamplePaymentMethod\Model\Method\ExamplePaymentMethod</model>
+                <order_status>processing</order_status>
+                <title>ExamplePaymentMethod</title>
+            </oneserv_example_payment_method>
+        </payment>
+    </default>
+</config>

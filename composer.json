@@ -1,0 +1,20 @@
+{
+    "name": "oneserv/magento2-33869",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timon Heuser",
+            "email": "heuser@bueromoebel-experte.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Oneserv\\ExamplePaymentMethod\\": ""
+        }
+    }
+}
